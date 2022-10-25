@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p4_clase_gráfica_publicitaria</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&family=Titillium+Web&display=swap" rel="stylesheet">
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+        }
+        body{
+            overflow: hidden;
+        }
+        a{
+            text-decoration: none;
+        }
+        header, nav, main, footer{
+            padding: 0 14vw;
+        }
+        header, nav, h2, footer{
+            font-family: 'Titillium Web', sans-serif
+        }
+        main{
+            font-family: 'Silkscreen', cursive
+        }
+        /*HEADER*/
+        header p{
+            font-weight: 800;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        nav a{
+            font-weight: normal;
+        }
+        main h2{
+            font-size: 1.5em;
+            font-weight: 400;
+        }
+        footer address, footer a{
+            font-weight: 400;
+            font-style: italic;
+        }
+        header{
+            margin: 0%; padding: 150;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #02FF0C;
+            color:#FF029A;
+            height: 17vh;
+            font-weight: 800;
+            font-size: 2em;
+        }
+        /*NAV*/
+        nav{
+            padding: 0 -2em;
+            display: flex;
+            flex-direction: row;
+            width: 50;
+            justify-content: center;
+            align-items:baseline;
+            height: 17vh;
+            background-color: #02FF0C;
+            color:#FF029A;
+        }
+        nav a{
+            height: 5vh;
+            background-color: #02FF0C;
+            color:#FF029A;
+        }
+        nav a:nth-child(2){
+            font-size: 0.65em;
+            width: 90px;
+            height: 90px;
+            padding: 0.3em;
+        }
+        nav a img{
+            width: 100px;
+            height: auto;
+            align-items: center;
+        }
+        /*MAIN*/
+        main{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 49vh;
+            background-color: #FF029A;
+            color: #02FF0C;
+        }
+        main hgroup{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+        main h1{
+            font-family: 'Silkscreen', cursive
+            font-size: 3em;
+        }
+        main h2{
+            font-size: 1.5em;
+            font-weight: 400;
+            margin-top: -0.3em;
+
+        }
+        /*FOOTER*/
+        footer{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 17vh;
+            background-color: #02FF0C;
+            color: #FF029A;
+            padding-top: 3em;
+        }
+        footer a{
+            color: #FF029A;
+        }
+        footer address{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        header, main, nav, footer{
+            padding: 0% 150px;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a>¡Visítanos en a EASDAlcoy! <span>No</span> te arrepentirás X.X</a>
+    </header>
+    <nav>
+        <a href="pages/clase.html">Clase</a>
+        <a href="#">
+            <img src="IMG/Group 1.svg" alt="logo">
+        </a>
+        <a href="pages/horario.html">Horario</a>
+    </nav>
+    <main>
+        <hgroup>
+            <h1>2022/2023</h1>
+            <h1>Gráfica Publicitaria</h1>
+        </hgroup>
+        <h2>Escola d'Art i Superior de Disseny d'Alcoy</h2>
+    </main>
+    <footer>
+        <address>
+            C/Barranc de Na Lloba, s/n, Alcoy - Alicante<br>
+            <a href="www.easdalcoi.es">easdalcoi.es</a>
+        </address>
+    </footer> 
+</body>
+</html>
